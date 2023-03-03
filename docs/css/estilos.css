@@ -1,0 +1,142 @@
+@media screen and (max-width:1920px) {
+            
+    body{
+        margin:0;
+        padding:0;
+        background: #beb9b4;
+    }
+
+    .nombre{
+        width:100%;
+        height: 400px;
+        background: #7f5a96;
+    }
+
+    .nombre .contenedor {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: 15%;
+        }
+
+    .nombre .contenedor .p-1 {
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bolder;
+        font-size: 65px;
+        margin-bottom: 0%;
+        margin-right: 15px;
+    }
+
+    .nombre .contenedor .p-2 {
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 0%;
+        margin-bottom: 20%;
+        margin-right: 15px;
+    }
+
+    .nombre .img {
+        position: absolute;
+        top: 9%;
+        right: 7%;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+
+    .nombre .img img{
+        width: 250px;
+        height: 250px;
+        float: right;   
+        }
+
+    .info {
+        width: 90%;
+        height: auto;
+        background-color: #7f5a96;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .info .tituloSeccion {
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: 3px white solid;
+    }
+
+    .info .tituloInfo {
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        font-size: x-large;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .info .infoInfo {
+        color: rgb(33, 33, 33);
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: normal;
+        font-size: large;
+        display: inline;
+    }
+
+    .info span {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: 1%;
+        background: #00ffe1;
+        color: #005349;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        border-radius: 15px;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+
+    .nombre{
+        width:100%;
+        height: 500px;
+        background: #7f5a96;
+        
+    }
+
+    .nombre .contenedor {
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        left: 5%;
+        }
+ 
+    .nombre .contenedor .p-1 {
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bolder;
+        font-size: 35px;
+        margin-bottom: 0%;
+        margin-right: 15px;
+    }
+
+    .nombre .contenedor .p-2 {
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        margin-top: 0%;
+        margin-bottom: 20%;
+        margin-right: 15px;
+    }
+
+}
