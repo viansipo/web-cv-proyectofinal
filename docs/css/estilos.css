@@ -107,6 +107,28 @@
         border-radius: 15px;
     }
 
+
+    .rating {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .item {
+        background-color: rgb(198, 198, 198);
+        -webkit-mask-image: url(stars.svg);
+        mask-image: url(stars.svg);
+        width: 50px;
+        height: 49px;
+        cursor: pointer;
+    }
+    
+    .item-full {
+        background-color: rgb(255, 237, 35);
+    }
+
+
+
 }
 
 @media screen and (max-width:720px) {
@@ -143,5 +165,26 @@
         margin-bottom: 20%;
         margin-right: 15px;
     }
+
+
+    .rating {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .item {
+        background-color: rgb(198, 198, 198);
+        -webkit-mask-image: url(stars.svg);
+        mask-image: url(stars.svg);
+        width: 40px;
+        height: 38px;
+        cursor: pointer;
+    }
+    
+    .item-full {
+        background-color: rgb(255, 237, 35);
+    }
+
 
 }
